@@ -15,4 +15,4 @@ qr.add_data(url)
 qr.make(fit=True)
 
 img = qr.make_image(fill='black', back_color='white')
-img.save('advisoring-qr.png')
+img.save('qr.png')
